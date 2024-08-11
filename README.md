@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pooja Singh - Portfolio</title>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Pooja Singh's personal portfolio website." />
+    <!-- Manifest JSON (if needed) -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/styles.css">
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="styles.css">
+    <title>Pooja Singh - Portfolio</title>
 </head>
 <body>
     <!-- Navbar -->
@@ -37,7 +42,7 @@
         </div>
     </nav>
 
-    <!-- Home Section -->
+    <!-- Content Sections -->
     <section id="home" class="container-fluid text-center text-navy py-5 bg-light-blue">
         <div class="container">
             <h1>Welcome to My Portfolio</h1>
@@ -45,14 +50,12 @@
         </div>
     </section>
 
-    <!-- About Section -->
     <section id="about" class="container text-center py-5">
         <h2 class="text-navy bg-dark-blue py-2 px-4 rounded">About Me</h2>
-        <img src="https://via.placeholder.com/150" alt="Profile Picture" class="rounded-circle my-3 border-navy">
+        <img src="%PUBLIC_URL%/profile-pic.jpg" alt="Profile Picture" class="rounded-circle my-3 border-navy">
         <p class="text-navy">Hi, I'm Pooja Singh, a data enthusiast currently pursuing my master's in economics with a specialization in data analytics. I have experience in SQL, Python, Power BI, and more. I'm constantly learning and exploring new technologies.</p>
     </section>
 
-    <!-- Resume Section -->
     <section id="resume" class="container-fluid bg-light-blue py-5">
         <div class="container text-center">
             <h2 class="text-navy bg-dark-blue py-2 px-4 rounded">Resume</h2>
@@ -60,13 +63,12 @@
         </div>
     </section>
 
-    <!-- Projects Section -->
     <section id="projects" class="container text-center py-5">
         <h2 class="text-navy bg-dark-blue py-2 px-4 rounded">Projects</h2>
         <div class="row">
             <div class="col-md-4">
                 <div class="card border-navy shadow-lg">
-                    <img src="https://via.placeholder.com/350" class="card-img-top" alt="Project 1">
+                    <img src="%PUBLIC_URL%/project1.jpg" class="card-img-top" alt="Project 1">
                     <div class="card-body">
                         <h5 class="card-title text-navy">Carbon Emission Analysis</h5>
                         <p class="card-text text-navy">Analyzed global carbon emissions using SQL, Power BI, and Excel. Created a dashboard to visualize emissions data by region and sector.</p>
@@ -75,7 +77,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card border-navy shadow-lg">
-                    <img src="https://via.placeholder.com/350" class="card-img-top" alt="Project 2">
+                    <img src="%PUBLIC_URL%/project2.jpg" class="card-img-top" alt="Project 2">
                     <div class="card-body">
                         <h5 class="card-title text-navy">Real Estate Data Analysis</h5>
                         <p class="card-text text-navy">Conducted data cleaning and analysis on real estate transactions. Developed a Power BI dashboard to showcase market trends.</p>
@@ -84,7 +86,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card border-navy shadow-lg">
-                    <img src="https://via.placeholder.com/350" class="card-img-top" alt="Project 3">
+                    <img src="%PUBLIC_URL%/project3.jpg" class="card-img-top" alt="Project 3">
                     <div class="card-body">
                         <h5 class="card-title text-navy">Load Forecasting for Energy Management</h5>
                         <p class="card-text text-navy">Implemented time series forecasting models to predict energy demand using Python libraries like Pandas, NumPy, and Scikit-learn.</p>
@@ -94,7 +96,6 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
     <section id="contact" class="container-fluid bg-light-blue text-navy py-5">
         <div class="container text-center">
             <h2 class="text-navy bg-dark-blue py-2 px-4 rounded">Contact Me</h2>
@@ -110,126 +111,3 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
-/* General Styles */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #e6f2ff; /* Light blue background */
-    color: #000080; /* Navy blue text */
-}
-
-h1, h2, p {
-    margin: 0;
-}
-
-/* Navbar */
-.navbar-dark {
-    background-color: #000080; /* Dark blue background */
-}
-
-.navbar-dark .navbar-brand {
-    color: #fff;
-}
-
-.navbar-dark .nav-link {
-    color: #fff;
-    border-radius: 5px;
-    padding: 10px;
-    margin-left: 10px;
-}
-
-.navbar-dark .nav-link:hover {
-    background-color: #003366; /* Darker blue on hover */
-}
-
-/* Home Section */
-#home {
-    background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
-}
-
-#home h1 {
-    font-size: 3rem;
-    font-weight: bold;
-}
-
-#home p {
-    font-size: 1.25rem;
-}
-
-/* About Section */
-#about {
-    background-color: #e6f2ff;
-}
-
-#about img {
-    width: 150px;
-    height: 150px;
-    border: 5px solid #000080; /* Navy blue border */
-}
-
-#about h2 {
-    background-color: #000080; /* Dark blue background */
-    color: #fff;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-/* Resume Section */
-#resume {
-    background-color: #e6f2ff;
-}
-
-#resume h2 {
-    background-color: #000080; /* Dark blue background */
-    color: #fff;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-/* Projects Section */
-#projects {
-    background-color: #e6f2ff;
-}
-
-#projects .card {
-    border: 2px solid #000080; /* Navy blue border */
-    margin-bottom: 20px;
-    border-radius: 10px;
-    transition: transform 0.3s ease-in-out;
-}
-
-#projects .card:hover {
-    transform: scale(1.05);
-}
-
-#projects .card-body {
-    border-top: 2px solid #000080; /* Navy blue border */
-}
-
-/* Contact Section */
-#contact {
-    background-color: #e6f2ff;
-}
-
-#contact h2 {
-    background-color: #000080; /* Dark blue background */
-    color: #fff;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-/* Custom Classes */
-.bg-light-blue {
-    background-color: #e6f2ff;
-}
-
-.bg-dark-blue {
-    background-color: #000080;
-}
-
-.text-navy {
-    color: #000080;
-}
-
-.border-navy {
-    border: 2px solid #000080;
-}
