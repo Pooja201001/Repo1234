@@ -55,7 +55,9 @@
     <!-- About Section -->
     <section id="about" class="container text-center py-5">
         <h2>About Me</h2>
-        <p>Hi, I'm Pooja Singh, a data enthusiast currently pursuing my master's in economics with a specialization in data analytics. I have experience in SQL, Python, Power BI, and more. I'm constantly learning and exploring new technologies.</p>
+        <p>Hello! I'm Pooja Singh, currently pursuing an MSc in Economics with a specialization in Data Analytics at Symbiosis School of Economics, Pune. I am passionate about leveraging data to drive meaningful insights and solutions. My academic journey began with a BSc in Economics from the same institute, where I developed a strong foundation in economic theories and data analysis.</p>
+        <p>I have gained practical experience through internships at Cybrom Technology Pvt. Ltd. and JS Baghel & Co., where I honed my skills in data cleaning, analysis, and visualization. My projects have included comprehensive analyses of carbon emissions and market trends, providing valuable insights for environmental and business decision-making.</p>
+        <p>In addition to my technical skills in SQL, Python, and data visualization tools like PowerBI and Tableau, I am committed to continuous learning and professional growth. Feel free to connect with me via email or LinkedIn to explore opportunities or discuss data-driven solutions!</p>
     </section>
 
     <!-- Resume Section -->
