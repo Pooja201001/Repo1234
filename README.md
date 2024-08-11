@@ -45,8 +45,10 @@
                     <img src="https://via.placeholder.com/150" alt="Profile Picture" class="rounded-circle mx-auto d-block">
                 </div>
                 <div class="col-md-6 text-center text-md-left">
-                    <h1>Welcome to My Portfolio</h1>
-                    <p>I am a passionate Data Analyst and Developer.</p>
+                    <h1>Pooja Singh</h1>
+                    <p>MSc Economics with Data Analytics Specialization</p>
+                    <p>From Symbiosis School of Economics</p>
+                    <p>Pune</p>
                 </div>
             </div>
         </div>
@@ -55,9 +57,9 @@
     <!-- About Section -->
     <section id="about" class="container text-center py-5">
         <h2>About Me</h2>
-        <p>Hello! I'm Pooja Singh, currently pursuing an MSc in Economics with a specialization in Data Analytics at Symbiosis School of Economics, Pune. I am passionate about leveraging data to drive meaningful insights and solutions. My academic journey began with a BSc in Economics from the same institute, where I developed a strong foundation in economic theories and data analysis.</p>
+        <p>Hello! I'm Pooja Singh, currently pursuing an MSc in Economics with a specialization in Data Analytics at Symbiosis School of Economics, Pune. I am passionate about leveraging data to drive meaningful insights and solutions. My academic journey began with a BSc in Economics, where I developed a strong foundation in economic theories and data analysis.</p>
         <p>I have gained practical experience through internships at Cybrom Technology Pvt. Ltd. and JS Baghel & Co., where I honed my skills in data cleaning, analysis, and visualization. My projects have included comprehensive analyses of carbon emissions and market trends, providing valuable insights for environmental and business decision-making.</p>
-        <p>In addition to my technical skills in SQL, Python, and data visualization tools like PowerBI and Tableau, I am committed to continuous learning and professional growth. Feel free to connect with me via email or LinkedIn to explore opportunities or discuss data-driven solutions!</p>
+        <p>In addition to my technical skills in SQL, Python, R and data visualization tools like PowerBI and Tableau, I am committed to continuous learning and professional growth. Feel free to connect with me via email or LinkedIn to explore opportunities or discuss data-driven solutions!</p>
     </section>
 
     <!-- Resume Section -->
