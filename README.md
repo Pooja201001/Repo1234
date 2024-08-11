@@ -42,7 +42,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 d-flex align-items-center">
-                    <img src="https://via.placeholder.com/150" alt="Profile Picture" class="rounded-circle mx-auto d-block">
+                    <img src="https://drive.google.com/file/d/1OfDgmeKobJ2SJr8ZbNa2Q5s9C97otdhq/view?usp=drive_link" alt="Profile Picture" class="rounded-circle mx-auto d-block">
                 </div>
                 <div class="col-md-6 text-center text-md-left">
                     <h1>Pooja Singh</h1>
