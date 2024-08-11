@@ -56,7 +56,7 @@
     <section id="resume" class="container-fluid bg-light py-5">
         <div class="container">
             <h2 class="text-center">Resume</h2>
-            <p class="text-center">You can view my resume <a href="https://www.example.com" target="_blank">here</a>.</p>
+            <p class="text-center">You can view my resume <a href="https://drive.google.com/file/d/1iOictfDzrIiqKhH9R_D4_MvKoGYQbGRl/view?usp=sharing" target="_blank">here</a>.</p>
         </div>
     </section>
 
@@ -112,6 +112,7 @@
 </html>
 body {
     font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light Blue Background */
 }
 
 #home {
@@ -121,7 +122,7 @@ body {
 #about img {
     width: 150px;
     height: 150px;
-    border: 5px solid #f8f9fa;
+    border: 5px solid #004080; /* Navy Blue Border */
 }
 
 #projects .card {
@@ -129,7 +130,7 @@ body {
 }
 
 #contact a {
-    color: #fff;
+    color: #fff; /* White Text for Links in Contact */
     text-decoration: none;
 }
 
