@@ -1,46 +1,112 @@
-# pooja201001.github.io
-# Welcome to My GitHub Profile
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pooja Singh - Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Pooja Singh</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#resume">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-## About Me
-I am a final year master's student in economics with a specialization in data analytics. My studies focus on blending economic theories with advanced data analysis techniques. I am passionate about using data to uncover insights and drive decision-making.
+    <!-- Home Section -->
+    <section id="home" class="container-fluid text-center text-light bg-primary py-5">
+        <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+            <p>I am a passionate Data Analyst and Developer.</p>
+        </div>
+    </section>
 
-## Skills
-- SQL
-- Python
-- Power BI
-- Advanced Excel
-- STATA
-- SPSS
+    <!-- About Section -->
+    <section id="about" class="container text-center py-5">
+        <h2>About Me</h2>
+        <img src="https://via.placeholder.com/150" alt="Profile Picture" class="rounded-circle my-3">
+        <p>Hi, I'm Pooja Singh, a data enthusiast currently pursuing my master's in economics with a specialization in data analytics. I have experience in SQL, Python, Power BI, and more. I'm constantly learning and exploring new technologies.</p>
+    </section>
 
-## Projects
-### Real Estate Analysis [SQL, PowerBI, Excel]
-An in-depth data analysis project exploring real estate trends in Gurgaon.
+    <!-- Resume Section -->
+    <section id="resume" class="container-fluid bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">Resume</h2>
+            <p class="text-center">You can view my resume <a href="https://www.example.com" target="_blank">here</a>.</p>
+        </div>
+    </section>
 
-### Carbon Emission Analysis [Excel]
-A comprehensive analysis of carbon emissions, highlighting key trends and insights
+    <!-- Projects Section -->
+    <section id="projects" class="container text-center py-5">
+        <h2>Projects</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/350" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Carbon Emission Analysis</h5>
+                        <p class="card-text">Analyzed global carbon emissions using SQL, Power BI, and Excel. Created a dashboard to visualize emissions data by region and sector.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/350" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Real Estate Data Analysis</h5>
+                        <p class="card-text">Conducted data cleaning and analysis on real estate transactions. Developed a Power BI dashboard to showcase market trends.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/350" class="card-img-top" alt="Project 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Load Forecasting for Energy Management</h5>
+                        <p class="card-text">Implemented time series forecasting models to predict energy demand using Python libraries like Pandas, NumPy, and Scikit-learn.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-## Contact
-- Email: poojasingh.work20@gmail.com
-- LinkedIn: https://www.linkedin.com/in/poojasingh2010/
+    <!-- Contact Section -->
+    <section id="contact" class="container-fluid bg-dark text-light py-5">
+        <div class="container text-center">
+            <h2>Contact Me</h2>
+            <p>I'd love to hear from you! Feel free to reach out via email or connect with me on LinkedIn.</p>
+            <p>Email: <a href="mailto:pooja.singh@example.com" class="text-light">pooja.singh@example.com</a></p>
+            <p><a href="https://www.linkedin.com/in/your-profile" class="text-light">LinkedIn Profile</a></p>
+        </div>
+    </section>
 
-# 💫 About Me:
-Final year master’s student in economics with a specialization in data analytics. <br>Focusing on blending economic theories with advanced data analysis techniques. <br>Passionate about using data to uncover insights and drive decision-making.<br>Skills-SQL, Python, Power BI, Advanced Excel
-
-
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/poojasingh2010/) 
-
-# 💻 Tech Stack:
-![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black) ![Prezi](https://img.shields.io/badge/Prezi-%23000000.svg?style=for-the-badge&logo=Prezi&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Pooja201001&theme=blue_navy&hide_border=false&include_all_commits=true&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=Pooja201001&theme=blue_navy&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Pooja201001&theme=blue_navy&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=vetical&theme=tokyonight)
-
----
-[![](https://visitcount.itsvg.in/api?id=Pooja201001&icon=7&color=1)](https://visitcount.itsvg.in)
-
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
