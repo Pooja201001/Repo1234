@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Pooja Singh's personal portfolio website." />
-    <link rel="icon" href="favicon.ico" />
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pooja Singh - Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark-blue">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Pooja Singh</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="#home">Home</a>
                 </li>
                 <li class="nav-item">
@@ -38,56 +38,56 @@
     </nav>
 
     <!-- Home Section -->
-    <section id="home" class="hero bg-light-blue text-center text-navy d-flex align-items-center">
+    <section id="home" class="container-fluid text-center text-light bg-primary py-5">
         <div class="container">
             <h1>Welcome to My Portfolio</h1>
-            <p>I am a Data Analyst and Developer with a passion for technology.</p>
+            <p>I am a passionate Data Analyst and Developer.</p>
         </div>
     </section>
 
     <!-- About Section -->
     <section id="about" class="container text-center py-5">
-        <h2 class="text-navy bg-dark-blue py-2 px-4 rounded">About Me</h2>
-        <img src="profile-pic.jpg" alt="Profile Picture" class="rounded-circle my-3 border-navy" width="150">
-        <p class="text-navy">Hi, I'm Pooja Singh. I specialize in data analytics and have experience with SQL, Python, Power BI, and more. I am constantly exploring new technologies and improving my skills.</p>
+        <h2>About Me</h2>
+        <img src="https://via.placeholder.com/150" alt="Profile Picture" class="rounded-circle my-3">
+        <p>Hi, I'm Pooja Singh, a data enthusiast currently pursuing my master's in economics with a specialization in data analytics. I have experience in SQL, Python, Power BI, and more. I'm constantly learning and exploring new technologies.</p>
     </section>
 
     <!-- Resume Section -->
-    <section id="resume" class="container-fluid bg-light-blue py-5">
-        <div class="container text-center">
-            <h2 class="text-navy bg-dark-blue py-2 px-4 rounded">Resume</h2>
-            <p class="text-navy">View my resume <a href="https://drive.google.com/file/d/1iOictfDzrIiqKhH9R_D4_MvKoGYQbGRl/view?usp=sharing" target="_blank" class="text-navy">here</a>.</p>
+    <section id="resume" class="container-fluid bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">Resume</h2>
+            <p class="text-center">You can view my resume <a href="https://www.example.com" target="_blank">here</a>.</p>
         </div>
     </section>
 
     <!-- Projects Section -->
     <section id="projects" class="container text-center py-5">
-        <h2 class="text-navy bg-dark-blue py-2 px-4 rounded">Projects</h2>
+        <h2>Projects</h2>
         <div class="row">
             <div class="col-md-4">
-                <div class="card border-navy shadow-lg">
-                    <img src="project1.jpg" class="card-img-top" alt="Project 1">
+                <div class="card">
+                    <img src="https://via.placeholder.com/350" class="card-img-top" alt="Project 1">
                     <div class="card-body">
-                        <h5 class="card-title text-navy">Carbon Emission Analysis</h5>
-                        <p class="card-text text-navy">Analyzed global carbon emissions using SQL, Power BI, and Excel. Created a dashboard to visualize emissions data by region and sector.</p>
+                        <h5 class="card-title">Carbon Emission Analysis</h5>
+                        <p class="card-text">Analyzed global carbon emissions using SQL, Power BI, and Excel. Created a dashboard to visualize emissions data by region and sector.</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card border-navy shadow-lg">
-                    <img src="project2.jpg" class="card-img-top" alt="Project 2">
+                <div class="card">
+                    <img src="https://via.placeholder.com/350" class="card-img-top" alt="Project 2">
                     <div class="card-body">
-                        <h5 class="card-title text-navy">Real Estate Data Analysis</h5>
-                        <p class="card-text text-navy">Conducted data cleaning and analysis on real estate transactions. Developed a Power BI dashboard to showcase market trends.</p>
+                        <h5 class="card-title">Real Estate Data Analysis</h5>
+                        <p class="card-text">Conducted data cleaning and analysis on real estate transactions. Developed a Power BI dashboard to showcase market trends.</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card border-navy shadow-lg">
-                    <img src="project3.jpg" class="card-img-top" alt="Project 3">
+                <div class="card">
+                    <img src="https://via.placeholder.com/350" class="card-img-top" alt="Project 3">
                     <div class="card-body">
-                        <h5 class="card-title text-navy">Load Forecasting for Energy Management</h5>
-                        <p class="card-text text-navy">Implemented time series forecasting models to predict energy demand using Python libraries like Pandas, NumPy, and Scikit-learn.</p>
+                        <h5 class="card-title">Load Forecasting for Energy Management</h5>
+                        <p class="card-text">Implemented time series forecasting models to predict energy demand using Python libraries like Pandas, NumPy, and Scikit-learn.</p>
                     </div>
                 </div>
             </div>
@@ -95,12 +95,12 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="container-fluid bg-light-blue text-navy py-5">
+    <section id="contact" class="container-fluid bg-dark text-light py-5">
         <div class="container text-center">
-            <h2 class="text-navy bg-dark-blue py-2 px-4 rounded">Contact Me</h2>
+            <h2>Contact Me</h2>
             <p>I'd love to hear from you! Feel free to reach out via email or connect with me on LinkedIn.</p>
-            <p>Email: <a href="mailto:pooja.singh@example.com" class="text-navy">pooja.singh@example.com</a></p>
-            <p><a href="https://www.linkedin.com/in/your-profile" class="text-navy">LinkedIn Profile</a></p>
+            <p>Email: <a href="mailto:pooja.singh@example.com" class="text-light">pooja.singh@example.com</a></p>
+            <p><a href="https://www.linkedin.com/in/your-profile" class="text-light">LinkedIn Profile</a></p>
         </div>
     </section>
 
@@ -110,68 +110,29 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
-/* General Styles */
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
 }
 
-/* Navbar */
-.navbar-dark .navbar-nav .nav-link {
-    color: #fff;
+#home {
+    background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
 }
 
-.navbar-dark .navbar-nav .nav-link:hover {
-    color: #d1d1d1;
+#about img {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #f8f9fa;
 }
 
-/* Hero Section */
-.hero {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #000080;
-}
-
-.hero h1 {
-    font-size: 3rem;
+#projects .card {
     margin-bottom: 20px;
 }
 
-.hero p {
-    font-size: 1.2rem;
+#contact a {
+    color: #fff;
+    text-decoration: none;
 }
 
-/* About Section */
-.rounded-circle {
-    border: 4px solid #000080;
-}
-
-/* Cards */
-.card {
-    border: 2px solid #000080;
-}
-
-.card-img-top {
-    height: 200px;
-    object-fit: cover;
-}
-
-/* Custom Colors */
-.bg-light-blue {
-    background-color: #e6f2ff;
-}
-
-.bg-dark-blue {
-    background-color: #000080;
-}
-
-.text-navy {
-    color: #000080;
-}
-
-.border-navy {
-    border: 2px solid #000080;
+#contact a:hover {
+    text-decoration: underline;
 }
