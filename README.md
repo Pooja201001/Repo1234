@@ -122,17 +122,12 @@
 </html>
 body {
     font-family: Arial, sans-serif;
+    background-color: #a4c2f4; /* Set the background color for all pages */
 }
 
 #home {
     background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
-}
-
-#home img {
-    width: 150px;
-    height: 150px;
-    border: 5px solid #fff;
-    border-radius: 50%;
+    background-color: #a4c2f4; /* Set the background color for the home section */
 }
 
 #about img {
@@ -153,3 +148,4 @@ body {
 #contact a:hover {
     text-decoration: underline;
 }
+
