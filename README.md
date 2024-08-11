@@ -2,15 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
     <meta name="description" content="Pooja Singh's personal portfolio website." />
-    <!-- Manifest JSON (if needed) -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="%PUBLIC_URL%/styles.css">
-    <!-- Bootstrap CSS -->
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="styles.css">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <title>Pooja Singh - Portfolio</title>
 </head>
@@ -42,33 +37,36 @@
         </div>
     </nav>
 
-    <!-- Content Sections -->
-    <section id="home" class="container-fluid text-center text-navy py-5 bg-light-blue">
+    <!-- Home Section -->
+    <section id="home" class="hero bg-light-blue text-center text-navy d-flex align-items-center">
         <div class="container">
             <h1>Welcome to My Portfolio</h1>
-            <p>I am a passionate Data Analyst and Developer.</p>
+            <p>I am a Data Analyst and Developer with a passion for technology.</p>
         </div>
     </section>
 
+    <!-- About Section -->
     <section id="about" class="container text-center py-5">
         <h2 class="text-navy bg-dark-blue py-2 px-4 rounded">About Me</h2>
-        <img src="%PUBLIC_URL%/profile-pic.jpg" alt="Profile Picture" class="rounded-circle my-3 border-navy">
-        <p class="text-navy">Hi, I'm Pooja Singh, a data enthusiast currently pursuing my master's in economics with a specialization in data analytics. I have experience in SQL, Python, Power BI, and more. I'm constantly learning and exploring new technologies.</p>
+        <img src="profile-pic.jpg" alt="Profile Picture" class="rounded-circle my-3 border-navy" width="150">
+        <p class="text-navy">Hi, I'm Pooja Singh. I specialize in data analytics and have experience with SQL, Python, Power BI, and more. I am constantly exploring new technologies and improving my skills.</p>
     </section>
 
+    <!-- Resume Section -->
     <section id="resume" class="container-fluid bg-light-blue py-5">
         <div class="container text-center">
             <h2 class="text-navy bg-dark-blue py-2 px-4 rounded">Resume</h2>
-            <p class="text-navy">You can view my resume <a href="https://drive.google.com/file/d/1iOictfDzrIiqKhH9R_D4_MvKoGYQbGRl/view?usp=sharing" target="_blank" class="text-navy">here</a>.</p>
+            <p class="text-navy">View my resume <a href="https://drive.google.com/file/d/1iOictfDzrIiqKhH9R_D4_MvKoGYQbGRl/view?usp=sharing" target="_blank" class="text-navy">here</a>.</p>
         </div>
     </section>
 
+    <!-- Projects Section -->
     <section id="projects" class="container text-center py-5">
         <h2 class="text-navy bg-dark-blue py-2 px-4 rounded">Projects</h2>
         <div class="row">
             <div class="col-md-4">
                 <div class="card border-navy shadow-lg">
-                    <img src="%PUBLIC_URL%/project1.jpg" class="card-img-top" alt="Project 1">
+                    <img src="project1.jpg" class="card-img-top" alt="Project 1">
                     <div class="card-body">
                         <h5 class="card-title text-navy">Carbon Emission Analysis</h5>
                         <p class="card-text text-navy">Analyzed global carbon emissions using SQL, Power BI, and Excel. Created a dashboard to visualize emissions data by region and sector.</p>
@@ -77,7 +75,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card border-navy shadow-lg">
-                    <img src="%PUBLIC_URL%/project2.jpg" class="card-img-top" alt="Project 2">
+                    <img src="project2.jpg" class="card-img-top" alt="Project 2">
                     <div class="card-body">
                         <h5 class="card-title text-navy">Real Estate Data Analysis</h5>
                         <p class="card-text text-navy">Conducted data cleaning and analysis on real estate transactions. Developed a Power BI dashboard to showcase market trends.</p>
@@ -86,7 +84,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card border-navy shadow-lg">
-                    <img src="%PUBLIC_URL%/project3.jpg" class="card-img-top" alt="Project 3">
+                    <img src="project3.jpg" class="card-img-top" alt="Project 3">
                     <div class="card-body">
                         <h5 class="card-title text-navy">Load Forecasting for Energy Management</h5>
                         <p class="card-text text-navy">Implemented time series forecasting models to predict energy demand using Python libraries like Pandas, NumPy, and Scikit-learn.</p>
@@ -96,6 +94,7 @@
         </div>
     </section>
 
+    <!-- Contact Section -->
     <section id="contact" class="container-fluid bg-light-blue text-navy py-5">
         <div class="container text-center">
             <h2 class="text-navy bg-dark-blue py-2 px-4 rounded">Contact Me</h2>
@@ -111,3 +110,68 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #d1d1d1;
+}
+
+/* Hero Section */
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000080;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+/* About Section */
+.rounded-circle {
+    border: 4px solid #000080;
+}
+
+/* Cards */
+.card {
+    border: 2px solid #000080;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Custom Colors */
+.bg-light-blue {
+    background-color: #e6f2ff;
+}
+
+.bg-dark-blue {
+    background-color: #000080;
+}
+
+.text-navy {
+    color: #000080;
+}
+
+.border-navy {
+    border: 2px solid #000080;
+}
