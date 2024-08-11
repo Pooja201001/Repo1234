@@ -40,27 +40,29 @@
     <!-- Home Section -->
     <section id="home" class="container-fluid text-center text-light bg-primary py-5">
         <div class="container">
-            <h1>Welcome to My Portfolio</h1>
-            <p>I am a passionate Data Analyst and Developer.</p>
+            <div class="row">
+                <div class="col-md-6 d-flex align-items-center">
+                    <img src="https://via.placeholder.com/150" alt="Profile Picture" class="rounded-circle mx-auto d-block">
+                </div>
+                <div class="col-md-6 text-center text-md-left">
+                    <h1>Welcome to My Portfolio</h1>
+                    <p>I am a passionate Data Analyst and Developer.</p>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- About Section -->
     <section id="about" class="container text-center py-5">
         <h2>About Me</h2>
-        <img src="https://via.placeholder.com/150" alt="Profile Picture" class="rounded-circle my-3">
-        <p>Hi, Hello! I'm Pooja Singh, currently pursuing an MSc in Economics with a specialization in Data Analytics at Symbiosis School of Economics, Pune. I am passionate about leveraging data to drive meaningful insights and solutions. My academic journey began with a BSc in Economics from the same institute, where I developed a strong foundation in economic theories and data analysis.
-
-I have gained practical experience through internships at Cybrom Technology Pvt. Ltd. and JS Baghel & Co., where I honed my skills in data cleaning, analysis, and visualization. My projects have included comprehensive analyses of carbon emissions and market trends, providing valuable insights for environmental and business decision-making.
-
-In addition to my technical skills in SQL, Python, and data visualization tools like PowerBI and Tableau, I am committed to continuous learning and professional growth. Feel free to connect with me via email or LinkedIn to explore opportunities or discuss data-driven solutions!</p>
+        <p>Hi, I'm Pooja Singh, a data enthusiast currently pursuing my master's in economics with a specialization in data analytics. I have experience in SQL, Python, Power BI, and more. I'm constantly learning and exploring new technologies.</p>
     </section>
 
     <!-- Resume Section -->
     <section id="resume" class="container-fluid bg-light py-5">
         <div class="container">
             <h2 class="text-center">Resume</h2>
-            <p class="text-center">You can view my resume <a href="https://drive.google.com/file/d/1iOictfDzrIiqKhH9R_D4_MvKoGYQbGRl/view?usp=sharing" target="_blank">here</a>.</p>
+            <p class="text-center">You can view my resume <a href="https://www.example.com" target="_blank">here</a>.</p>
         </div>
     </section>
 
@@ -116,17 +118,23 @@ In addition to my technical skills in SQL, Python, and data visualization tools 
 </html>
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f8ff; /* Light Blue Background */
 }
 
 #home {
     background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
 }
 
+#home img {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+}
+
 #about img {
     width: 150px;
     height: 150px;
-    border: 5px solid #004080; /* Navy Blue Border */
+    border: 5px solid #f8f9fa;
 }
 
 #projects .card {
@@ -134,7 +142,7 @@ body {
 }
 
 #contact a {
-    color: #fff; /* White Text for Links in Contact */
+    color: #fff;
     text-decoration: none;
 }
 
