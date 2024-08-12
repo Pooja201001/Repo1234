@@ -125,7 +125,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 d-flex align-items-center">
-                    <img src="https://drive.google.com/uc?export=view&id=1OfDgmeKobJ2SJr8ZbNa2Q5s9C97otdhq" alt="Profile Picture" class="rounded-circle mx-auto d-block">
+                    <img src="https://drive.google.com/file/d/1OfDgmeKobJ2SJr8ZbNa2Q5s9C97otdhq/view?usp=drive_link" alt="Profile Picture" class="rounded-circle mx-auto d-block">
                 </div>
                 <div class="col-md-6 text-center text-md-left">
                     <h1>Pooja Singh</h1>
@@ -149,46 +149,54 @@
     <section id="resume" class="container-fluid py-5">
         <div class="container">
             <h2 class="text-center">Resume</h2>
-            <p class="text-center">You can view my resume <a href="https://www.example.com" target="_blank">here</a>.</p>
+            <p class="text-center">You can view my resume <a href="https://drive.google.com/file/d/1iOictfDzrIiqKhH9R_D4_MvKoGYQbGRl/view?usp=drive_link" target="_blank">here</a>.</p>
         </div>
     </section>
 
-   <!-- Projects Section -->
-<section id="projects" class="container text-center py-5">
-    <h2>Projects</h2>
-    <div class="row">
-        <div class="col-md-6">
-            <div class="card">
-                <img src="https://via.placeholder.com/350" class="card-img-top" alt="Project 1">
-                <div class="card-body">
-                    <h5 class="card-title">Carbon Emission Analysis</h5>
-                    <p class="card-text">Analyzed global carbon emissions using Excel. Created a dashboard to visualize emissions data by region and sector.</p>
+    <!-- Projects Section -->
+    <section id="projects" class="container text-center py-5">
+        <h2>Projects</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/350" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Carbon Emission Analysis</h5>
+                        <p class="card-text">Analyzed global carbon emissions using SQL, Power BI, and Excel. Created a dashboard to visualize emissions data by region and sector.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/350" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Real Estate Data Analysis</h5>
+                        <p class="card-text">Conducted data cleaning and analysis on real estate transactions. Developed a Power BI dashboard to showcase market trends.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/350" class="card-img-top" alt="Project 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Load Forecasting for Energy Management</h5>
+                        <p class="card-text">Implemented time series forecasting models to predict energy demand using Python libraries like Pandas, NumPy, and Scikit-learn.</p>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-md-6">
-            <div class="card">
-                <img src="https://via.placeholder.com/350" class="card-img-top" alt="Project 2">
-                <div class="card-body">
-                    <h5 class="card-title">Real Estate Data Analysis</h5>
-                    <p class="card-text">Conducted data cleaning and analysis on real estate transactions. Developed a Power BI dashboard to showcase market trends.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
+    </section>
 
     <!-- Contact Section -->
-<section id="contact" class="container-fluid bg-dark text-light py-5">
-    <div class="container text-center">
-        <h2>Contact Me</h2>
-        <p>I'd love to hear from you! Feel free to reach out via email or connect with me on LinkedIn.</p>
-        <p>Email: <a href="mailto:poojasingh.work20@gmail.com" class="text-light">poojasingh.work20@gmail.com</a></p>
-        <p><a href="http://www.linkedin.com/in/poojasingh2010" class="text-light">LinkedIn Profile</a></p>
-    </div>
- </section>
-
+    <section id="contact" class="container-fluid py-5">
+        <div class="container text-center">
+            <h2>Contact Me</h2>
+            <p>I'd love to hear from you! Feel free to reach out via email or connect with me on LinkedIn.</p>
+            <p>Email: <a href="mailto:poojasingh.work20@gmail.com" class="text-light">poojasingh.work20@gmail.com
+            </a></p>
+            <p><a href="http://www.linkedin.com/in/poojasingh2010" class="text-light">LinkedIn Profile</a></p>
+        </div>
+    </section>
 
     <!-- Bootstrap JS and dependencies -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
