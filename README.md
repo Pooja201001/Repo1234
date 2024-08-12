@@ -1,20 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pooja Singh - Portfolio</title>
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Custom CSS */
+
+        /* Global styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white; /* Set the global background color to white */
+            color: black; /* Set global text color to black */
+        }
+
+        /* Navbar styling */
+        .navbar {
+            background-color: #cca677; /* Navbar background color */
+        }
+
+        .navbar-brand, .nav-link {
+            color: black !important; /* Navbar text color */
+        }
+
+        .navbar-toggler {
+            background-color: #cca677; /* Toggler button background color */
+        }
+
+        .navbar-toggler-icon {
+            background-image: none; /* Remove default icon background */
+            color: white; /* Toggler icon color */
+        }
+
+        /* Home section styling */
+        #home {
+            background-color: white; /* Home section background color */
+            color: black; /* Home section text color */
+        }
+
+        #home h1, #home p {
+            color: black; /* Set color for h1 and p tags in the home section */
+        }
+
+        /* About section styling */
+        #about h2 {
+            background-color: #cca677; /* About section title background color */
+            padding: 10px;
+            color: black;
+        }
+
+        /* Resume section styling */
+        #resume {
+            background-color: white; /* Resume section background color */
+            color: black; /* Resume section text color */
+        }
+
+        #resume h2 {
+            background-color: #cca677; /* Resume section title background color */
+            padding: 10px;
+            color: black;
+        }
+
+        /* Projects section styling */
+        #projects h2 {
+            background-color: #cca677; /* Projects section title background color */
+            padding: 10px;
+            color: black;
+        }
+
+        /* Contact section styling */
+        #contact {
+            background-color: #cca677; /* Contact section background color */
+            color: black; /* Contact section text color */
+        }
+
+        #contact h2, #contact p {
+            color: black;
+        }
+
+        #contact a {
+            color: black; /* Links in the contact section */
+            text-decoration: none;
+        }
+
+        #contact a:hover {
+            text-decoration: underline; /* Hover effect for links */
+        }
+    </style>
 </head>
+
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #cca677;">
+    <nav class="navbar navbar-expand-lg">
         <a class="navbar-brand" href="#">Pooja Singh</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon">☰</span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
@@ -38,7 +121,7 @@
     </nav>
 
     <!-- Home Section -->
-    <section id="home" class="container-fluid text-center py-5" style="background-color: #cca677;">
+    <section id="home" class="container-fluid text-center py-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 d-flex align-items-center">
@@ -56,23 +139,23 @@
 
     <!-- About Section -->
     <section id="about" class="container text-center py-5">
-        <h2 style="background-color: #cca677;">About Me</h2>
+        <h2>About Me</h2>
         <p>Hello! I'm Pooja Singh, currently pursuing an MSc in Economics with a specialization in Data Analytics at Symbiosis School of Economics, Pune. I am passionate about leveraging data to drive meaningful insights and solutions. My academic journey began with a BSc in Economics, where I developed a strong foundation in economic theories and data analysis.</p>
         <p>I have gained practical experience through internships at Cybrom Technology Pvt. Ltd. and JS Baghel & Co., where I honed my skills in data cleaning, analysis, and visualization. My projects have included comprehensive analyses of carbon emissions and market trends, providing valuable insights for environmental and business decision-making.</p>
-        <p>In addition to my technical skills in SQL, Python, R, and data visualization tools like PowerBI and Tableau, I am committed to continuous learning and professional growth. Feel free to connect with me via email or LinkedIn to explore opportunities or discuss data-driven solutions!</p>
+        <p>In addition to my technical skills in SQL, Python, R and data visualization tools like PowerBI and Tableau, I am committed to continuous learning and professional growth. Feel free to connect with me via email or LinkedIn to explore opportunities or discuss data-driven solutions!</p>
     </section>
 
     <!-- Resume Section -->
-    <section id="resume" class="container-fluid py-5" style="background-color: #f8f9fa;">
+    <section id="resume" class="container-fluid py-5">
         <div class="container">
-            <h2 class="text-center" style="background-color: #cca677;">Resume</h2>
+            <h2 class="text-center">Resume</h2>
             <p class="text-center">You can view my resume <a href="https://www.example.com" target="_blank">here</a>.</p>
         </div>
     </section>
 
     <!-- Projects Section -->
     <section id="projects" class="container text-center py-5">
-        <h2 style="background-color: #cca677;">Projects</h2>
+        <h2>Projects</h2>
         <div class="row">
             <div class="col-md-4">
                 <div class="card">
@@ -105,9 +188,9 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="container-fluid text-light py-5" style="background-color: #343a40;">
+    <section id="contact" class="container-fluid py-5">
         <div class="container text-center">
-            <h2 style="background-color: #cca677;">Contact Me</h2>
+            <h2>Contact Me</h2>
             <p>I'd love to hear from you! Feel free to reach out via email or connect with me on LinkedIn.</p>
             <p>Email: <a href="mailto:pooja.singh@example.com" class="text-light">pooja.singh@example.com</a></p>
             <p><a href="https://www.linkedin.com/in/your-profile" class="text-light">LinkedIn Profile</a></p>
@@ -119,30 +202,5 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
-body {
-    font-family: Arial, sans-serif;
-    background-color: white; /* Change the background color to white */
-    color: black; /* Change the font color to black */
-}
-
-#home {
-    background-color: #cca677; /* Set the background color for the home section */
-    color: black; /* Ensure text color is black */
-}
-
-#about {
-    color: black; /* Ensure text color is black */
-}
-
-#resume {
-    color: black; /* Ensure text color is black */
-}
-
-#projects {
-    color: black; /* Ensure text color is black */
-}
-
-#contact {
-    color: white; /* Keep the contact text color white */
-}
