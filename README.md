@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pooja Singh - Portfolio</title>
+    <!-- Removed the title tag to hide the title from the webpage -->
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
@@ -142,7 +142,7 @@
         <h2>About Me</h2>
         <p>Hello! I'm Pooja Singh, currently pursuing an MSc in Economics with a specialization in Data Analytics at Symbiosis School of Economics, Pune. I am passionate about leveraging data to drive meaningful insights and solutions. My academic journey began with a BSc in Economics, where I developed a strong foundation in economic theories and data analysis.</p>
         <p>I have gained practical experience through internships at Cybrom Technology Pvt. Ltd. and JS Baghel & Co., where I honed my skills in data cleaning, analysis, and visualization. My projects have included comprehensive analyses of carbon emissions and market trends, providing valuable insights for environmental and business decision-making.</p>
-        <p>In addition to my technical skills in SQL, Python, R and data visualization tools like PowerBI and Tableau, I am committed to continuous learning and professional growth. Feel free to connect with me via email or LinkedIn to explore opportunities or discuss data-driven solutions!</p>
+        <p>In addition to my technical skills in SQL, Python, R, and data visualization tools like PowerBI and Tableau, I am committed to continuous learning and professional growth. Feel free to connect with me via email or LinkedIn to explore opportunities or discuss data-driven solutions!</p>
     </section>
 
     <!-- Resume Section -->
@@ -176,32 +176,4 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card">
-                    <img src="https://via.placeholder.com/350" class="card-img-top" alt="Project 3">
-                    <div class="card-body">
-                        <h5 class="card-title">Load Forecasting for Energy Management</h5>
-                        <p class="card-text">Implemented time series forecasting models to predict energy demand using Python libraries like Pandas, NumPy, and Scikit-learn.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="container-fluid py-5">
-        <div class="container text-center">
-            <h2>Contact Me</h2>
-            <p>I'd love to hear from you! Feel free to reach out via email or connect with me on LinkedIn.</p>
-            <p>Email: <a href="mailto:poojasingh.work20@gmail.com" class="text-light">poojasingh.work20@gmail.com
-            </a></p>
-            <p><a href="http://www.linkedin.com/in/poojasingh2010" class="text-light">LinkedIn Profile</a></p>
-        </div>
-    </section>
-
-    <!-- Bootstrap JS and dependencies -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-
-</html>
+                <div class="
