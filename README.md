@@ -159,10 +159,10 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="card">
-                    <img src="https://via.placeholder.com/350" class="card-img-top" alt="Project 1">
+                    <img src="https://drive.google.com/file/d/1vFmv5FT_dtgoTOcYluEARThfRfFKO4D0/view?usp=sharing" class="card-img-top" alt="Project 1">
                     <div class="card-body">
                         <h5 class="card-title">Carbon Emission Analysis</h5>
-                        <p class="card-text">Analyzed global carbon emissions using SQL, Power BI, and Excel. Created a dashboard to visualize emissions data by region and sector.</p>
+                        <p class="card-text">Analyzed global carbon emissions using Excel. Created a dashboard to visualize emissions data by region and sector.</p>
                     </div>
                 </div>
             </div>
