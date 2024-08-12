@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Bootstrap CSS -->
+    <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
         /* Custom CSS */
@@ -10,68 +10,77 @@
         /* Global styles */
         body {
             font-family: Arial, sans-serif;
-            background-color: white; /* Set the global background color to white */
-            color: black; /* Set global text color to black */
+            background-color: white;
+            color: black;
+            margin: 0;
+            padding: 0;
         }
 
         /* Navbar styling */
         .navbar {
-            background-color: #cca677; /* Navbar background color */
+            background-color: #cca677;
+            width: 100%;
         }
 
         .navbar-brand, .nav-link {
-            color: black !important; /* Navbar text color */
+            color: black !important;
         }
 
         .navbar-toggler {
-            background-color: #cca677; /* Toggler button background color */
+            background-color: #cca677;
         }
 
         .navbar-toggler-icon {
-            background-image: none; /* Remove default icon background */
-            color: white; /* Toggler icon color */
+            background-image: none;
+            color: white;
+        }
+
+        /* Full-width section styling */
+        section {
+            width: 100%;
+            padding: 50px 0;
         }
 
         /* Home section styling */
         #home {
-            background-color: white; /* Home section background color */
-            color: black; /* Home section text color */
+            background-color: white;
+            color: black;
         }
 
         #home h1, #home p {
-            color: black; /* Set color for h1 and p tags in the home section */
+            color: black;
         }
 
         /* About section styling */
         #about h2 {
-            background-color: #cca677; /* About section title background color */
+            background-color: #cca677;
             padding: 10px;
             color: black;
         }
 
         /* Resume section styling */
         #resume {
-            background-color: white; /* Resume section background color */
-            color: black; /* Resume section text color */
+            background-color: white;
+            color: black;
         }
 
         #resume h2 {
-            background-color: #cca677; /* Resume section title background color */
+            background-color: #cca677;
             padding: 10px;
             color: black;
         }
 
         /* Projects section styling */
         #projects h2 {
-            background-color: #cca677; /* Projects section title background color */
+            background-color: #cca677;
             padding: 10px;
             color: black;
         }
 
         /* Contact section styling */
         #contact {
-            background-color: #cca677; /* Contact section background color */
-            color: black; /* Contact section text color */
+            background-color: #cca677;
+            color: black;
         }
 
         #contact h2, #contact p {
@@ -79,12 +88,12 @@
         }
 
         #contact a {
-            color: black; /* Links in the contact section */
+            color: black;
             text-decoration: none;
         }
 
         #contact a:hover {
-            text-decoration: underline; /* Hover effect for links */
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -189,8 +198,7 @@
         <div class="container text-center">
             <h2>Contact Me</h2>
             <p>I'd love to hear from you! Feel free to reach out via email or connect with me on LinkedIn.</p>
-            <p>Email: <a href="mailto:poojasingh.work20@gmail.com" class="text-light">poojasingh.work20@gmail.com
-            </a></p>
+            <p>Email: <a href="mailto:poojasingh.work20@gmail.com" class="text-light">poojasingh.work20@gmail.com</a></p>
             <p><a href="http://www.linkedin.com/in/poojasingh2010" class="text-light">LinkedIn Profile</a></p>
         </div>
     </section>
@@ -201,5 +209,3 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
-
-
