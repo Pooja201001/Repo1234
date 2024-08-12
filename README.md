@@ -200,5 +200,15 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+
 <h1 style="display: none;">Pooja Singh</h1>
+h1 {
+    display: none;
+}
+.my-title-class {
+    display: none;
+}
+git commit -m "Hid the title using CSS"
+git push origin main
+
 
