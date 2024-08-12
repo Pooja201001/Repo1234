@@ -155,7 +155,7 @@
     <section id="resume" class="container-fluid py-5">
         <div class="container">
             <h2 class="text-center">Resume</h2>
-            <p class="text-center">You can view my resume <a href="https://drive.google.com/file/d/1iOictfDzrIiqKhH9R_D4_MvKoGYQbGRl/view?usp=drive_link" target="_blank">here</a>.</p>
+            <p class="text-center">You can view my resume <a href="LINK" target="_blank">here</a>.</p>
         </div>
     </section>
 
